@@ -1,4 +1,4 @@
-module uart(input wire [7:0] data_in, //input data input wire wr_en,
+module tt_um_sreevass06_cpu(input wire [7:0] data_in, //input data input wire wr_en,
                       input wire clear,
                       input wire clk_50m,
                       output wire Tx,
